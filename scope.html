@@ -1,0 +1,15 @@
+<script>
+//const e let só fucoinan no escopo que foram criadas, var sofre hoisting
+//var hoisting 
+console.log('Existe x antes do bloco?',x)
+{
+    var x = 0.1
+}
+console.log('Existe x depois do bloco?',x)
+
+
+{
+    let y = 12
+    console.log('y depois de declarado',y)
+}
+</script>
