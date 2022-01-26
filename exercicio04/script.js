@@ -7,11 +7,26 @@ numérico para sistema de notas em caracteres tipo A B C
 * entre 70 - 79   -   C
 * entre 60 - 69   -   D
 * menor que 60    -   F
-
-
-
-
-
-
-
 */
+
+console.log("Teste teste")
+
+let nota = 85.0
+let notaConceito = "NotaConceito"
+
+
+if(nota >=90){
+    notaConceito = "A"
+}else if(nota>=80 && nota<90){
+    notaConceito = "B"
+}else if(nota>=70 && nota<79){
+    notaConceito = "C"
+}else if(nota>=60 && nota<69){
+    notaConceito = "D"
+}else if(nota<60 && nota>=0){
+    notaConceito = "F"
+}else{
+    notaConceito = "NotaInvalida"
+}
+
+console.log(notaConceito)
